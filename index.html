@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Bootstrap Assignment</title>
+</head>
+
+<body>
+    <div class="outer-main-container">
+        <nav class="navbar navbar-inner navbar-expand-lg navbar-light st-main-container">
+            <a class="navbar-brand st-nav" href="#">Bootstrap Task</a>
+            <div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link st-nav" href="#about">About </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link st-nav" href="#services">Services </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link st-nav" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link st-nav" href="#details-form">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="main-container-1 st-container d-flex flex-column justify-content-center align-items-center">
+            <div class="content">
+                <h1 class="heading">Bootstrap is super easy to work with!</h1>
+                <div class="dash dash-primary"></div>
+                <p class="description">The Bootstrap framework helps make our websites responsive. Just add the starter
+                    template, use the
+                    existing
+                    classes and you are good to go!</p>
+                <a class="btn btn-primary rounded-btn" href="#details-form" role="button">Find out more</a>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div id="about" class="main-container-2 st-container d-flex flex-column justify-content-center align-items-center">
+        <div class="content">
+            <h3 class="heading">We've got what you need!</h3>
+            <div class="dash dash-secondary"></div>
+            <p class="description">Bootstrap has everything you need to get your new website up and running in no time!
+            </p>
+            <a class="btn btn-secondary rounded-btn" href="#" role="button">Get started!</a>
+        </div>
+
+    </div>
+
+    <div id="services" class="main-container-3 d-flex flex-column justify-content-center align-items-center">
+        <h3 class="heading">At Your Service</h3>
+        <div class="dash dash-primary"></div>
+        <section class="d-flex justify-content-between align-items-center">
+            <article>
+                <i class="far fa-gem"></i>
+                <h4>Service Title</h4>
+                <p class="article-decription">Lorem ipsum dolor sit amet consectetur adipiscing elit. Praesent vel
+                    pretium neque. Aliquam erat
+                    volutpat.</p>
+            </article>
+
+            <article>
+                <i class="fas fa-laptop"></i>
+                <h4>Service Title</h4>
+                <p class="article-decription">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel
+                    pretium neque. Aliquam erat
+                    volutpat.</p>
+            </article>
+
+            <article>
+                <i class="fas fa-globe"></i>
+                <h4>Service Title</h4>
+                <p class="article-decription">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel
+                    pretium neque. Aliquam erat
+                    volutpat.</p>
+            </article>
+
+            <article>
+                <i class="far fa-heart"></i>
+                <h4>Service Title</h4>
+                <p class="article-decription">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel
+                    pretium neque. Aliquam erat
+                    volutpat.</p>
+            </article>
+        </section>
+    </div>
+
+    <div class="main-container-4 container" id="portfolio">
+        <div class="row">
+            <img class="image-grid" src="./images/image1.jpg" alt="image-1">
+            <img class="image-grid" src="./images/image2.jpg" alt="image-2">
+            <img class="image-grid" src="./images/image3.jpg" alt="image-3">
+        </div>
+        <div class="row">
+            <img class="image-grid" src="./images/image3.jpg" alt="image-3">
+            <img class="image-grid" src="./images/image1.jpg" alt="image-4">
+            <img class="image-grid" src="./images/image2.jpg" alt="image-5">
+        </div>.
+    </div>
+    </div>
+
+
+    <div id="details-form" class="main-container-5 d-flex flex-column justify-content-center align-items-center">
+        <h3 class="heading">Let's Get In Touch!</h3>
+        <div class="dash dash-primary"></div>
+        <p class="description">Ready to start your next project with us? Send us a messages and we will get back you as
+            soon as possible!
+        </p>
+
+        <form>
+            <div class="from-items">
+                <div class="form-inputs">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Full name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="Email address">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="Phone number">
+                    </div>
+                    <textarea placeholder="Message" class="form-control" id="exampleFormControlTextarea1"
+                        rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary-submit">SUBMIT</button>
+            </div>
+
+        </form>
+        <div class="contact">
+            <i class="fas fa-mobile-alt"></i>
+            <p>+1(555)123-4567</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Copyright © 2021 - Company Name</p>
+    </footer>
+
+</body>
+
+</html>

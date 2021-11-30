@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
+:root {
+    --primary: #f05b21;
+    --primary-nav-text:#F3F4F6;
+    --secondary: #6B7280;
+    --footer-bg: #EFF6FF;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+}
+
+.navbar-inner {
+    background: transparent;
+}
+
+.st-main-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.st-nav{
+    font-weight: bold;
+    color: var(--primary-nav-text) !important; 
+}
+
+.outer-main-container {
+    background: url('./images/bg.jpg');
+    background-size: cover;
+    padding: 1rem 1rem;
+}
+
+.st-container {
+    padding: 4rem 2rem;
+    margin: auto;
+    text-align: center;
+}
+
+
+.main-container-1 {
+    color: white;
+}
+
+.main-container-2 {
+    background: var(--primary);
+    color: white;
+}
+
+.dash {
+    width: 3rem;
+    height: 0.3rem;
+    margin: auto;
+    border-radius: 1rem;
+}
+
+.dash-primary {
+    background: var(--primary);
+}
+
+.dash-secondary {
+    background: white;
+}
+
+.content {
+    width: 42%;
+    margin: 2rem;
+}
+
+.heading,
+.description {
+    padding: 1.5rem;
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    color: white;
+    border: none;
+}
+
+.btn-secondary {
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+.rounded-btn {
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+}
+
+.main-container-3{
+    padding: 5rem 1rem;
+}
+
+article{
+    text-align: center;
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+}
+
+article i {
+    font-size: 1.8rem;
+    color: var(--primary);
+    padding: 1rem;
+}
+
+.article-decription{
+color: var(--secondary);
+}
+
+.row{
+    margin-left: 30px;
+}
+
+.image-grid{
+    width: 350px;
+    height: 250px;
+}
+
+.main-container-5{
+    padding: 1rem;
+    margin: 3rem 0rem;
+}
+
+form{
+    width: 50%;
+}
+
+.form-inputs{
+    margin-left:1rem;
+    width: 100%;
+}
+
+.btn-primary-submit{
+    margin: 1rem;
+    background-color: var(--primary);
+    color: white;
+    border: none;
+    width: 100%;
+    border-radius: 2rem;
+}
+
+.contact{
+    margin: 2rem;
+    text-align: center;
+}
+
+.contact i{
+    font-size: 2rem;
+}
+
+footer{
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-top: 1rem;
+    background-color: var(--footer-bg);
+    color: var(--secondary);
+}
